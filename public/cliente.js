@@ -1,8 +1,8 @@
 
 
 // conexion al socket
-// const socket = io( 'https://react-socket-server-01.herokuapp.com/' );
-const socket = io( 'http://localhost:8080' );
+const socket = io( 'https://react-socket-server-01.herokuapp.com/' );
+// const socket = io( 'http://localhost:8080' );
 
 // referencias a elementos del DOM
 const formulario = document.querySelector( '#miFormulario' );
