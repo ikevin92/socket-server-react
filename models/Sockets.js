@@ -5,11 +5,11 @@ class Sockets {
     constructor ( io ) {
         this.io = io;
 
-        this.socketEvenets();
+        this.socketEvents();
 
     }
 
-    socketEvenets () {
+    socketEvents () {
 
         this.io.on( 'connection', ( socket ) => {
             // console.log( 'Cliente conectado!: ', socket.id );
@@ -27,4 +27,3 @@ class Sockets {
 }
 
 module.exports = Sockets;
-//react-socket-server-01
