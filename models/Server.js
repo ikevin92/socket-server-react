@@ -44,7 +44,7 @@ class Server {
         // inicializar sockets
         this.configurarSockets();
 
-        this.server.listen( 8080, () => {
+        this.server.listen( this.port, () => {
             console.log( 'server corriendo en puerto', this.port );
         } );
     }
